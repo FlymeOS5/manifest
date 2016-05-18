@@ -7,7 +7,10 @@
            remote="origin"
            sync-j="4" />
 
-  <project path="manifest" name="FlymeOS5/manifest" />
+  <project path="manifest" name="FlymeOS5/manifest" >
+    <copyfile src="auto.sh" dest="auto.sh" />
+  </project>
+
   <project path="tutorials" name="FlymeOS/tutorials" />
   <project path="build" name="FlymeOS5/build" />
   <project path="tools" name="FlymeOS5/tools" />
